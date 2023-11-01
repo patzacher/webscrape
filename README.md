@@ -2,6 +2,8 @@
 
 This Python script aims to gather text data from websites or YouTube videos and save it within a directory named 'data'. It allows users to reference an Excel file containing URLs or create a list of URLs for scraping.
 
+## Overview
+
 #### Installation of Required Libraries
 Ensure the required libraries are installed within the virtual environment. See the `requirements.txt` file for more information on necessary libraries.
 
@@ -19,8 +21,6 @@ import re
 import os
 import shutil
 ```
-
-## Overview
 ### Webscraping Process
 ##### Retrieve URLs from Excel File
 The script reads URLs from an Excel file containing website and YouTube video links, storing them in separate lists for further processing.
